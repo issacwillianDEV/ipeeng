@@ -32,11 +32,11 @@
 				// Adicione a cor de texto para o elemento <a> quando o cabeçalho estiver fixo
 				siteHeader.find('.navigation > li > a').css('color', '#65ae60'); // Substitua '#000' pela cor desejada
 			} else {
-				siteHeader.removeClass('fixed-header');
+				// siteHeader.removeClass('fixed-header');
 				scrollLink.fadeOut(300);
 				
 				// Remova a cor de texto para o elemento <a> quando o cabeçalho não estiver fixo
-				siteHeader.find('.navigation > li > a').css('color', '');
+				siteHeader.find('.navigation > li > a').css('color', '#65ae60'); // Substitua '#000' pela cor desejada
 			}
 		}
 	}
